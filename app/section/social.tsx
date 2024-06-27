@@ -4,7 +4,7 @@ import Section from "../component/sectionTitle";
 import SocialIcon from "../component/socialIcon";
 
 // STATIC FILE ICON
-import TwitterIcon from "../../public/social/Twitter.svg"
+import TwitterIcon from "../../public/social/twitter.svg"
 import InstagramIcon from "../../public/social/instagram.svg"
 import GitHubIcon from "../../public/social/github.svg"
 import ZennIcon from "../../public/social/zenn.svg"
