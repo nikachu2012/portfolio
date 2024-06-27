@@ -1,14 +1,16 @@
 import Image from "next/image";
-import Header from "./component/header";
-import Profile from "./component/profile";
+import Header from "./section/header";
+import Profile from "./section/profile";
+import Social from "./section/social";
 
 
 export default function Home() {
   return (<>
     <Header />
-    <main className="w-full md:w-[1000px] m-auto">
+    <main className="md:w-[1000px] m-5 md:m-auto ">
       {/* main element */}
       <Profile />
+      <Social />
 
     </main>
   </>
