@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./section/header";
 import Profile from "./section/profile";
 import Social from "./section/social";
+import Skill from "./section/skill";
 
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       {/* main element */}
       <Profile />
       <Social />
-
+      <Skill />
     </main>
   </>
 
