@@ -11,7 +11,7 @@ import ZennIcon from "../../public/social/zenn.svg"
 export default function Social() {
     return <>
         <Section text="Social" />
-        <div className="flex gap-1">
+        <div className="flex justify-center gap-1 flex-wrap">
             {/* max.10 */}
             <SocialIcon img={TwitterIcon} text={"Twitter"} href={"https://twitter.com/nikachu2012"} />
             <SocialIcon img={InstagramIcon} text={"Instagram"} href={"https://instagram.com/nikachu2012"} />
