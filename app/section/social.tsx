@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Section from "../component/sectionTitle";
 
 import SocialIcon from "../component/socialIcon";
