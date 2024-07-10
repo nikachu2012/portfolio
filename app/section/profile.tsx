@@ -32,5 +32,7 @@ export default function Profile() {
                 </tr>
             </tbody>
         </table>
+        <a href="https://note.nikachu.net" className="underline mx-1" target="_blank">note.nikachu.net</a><br />
+        <a href="/0E493481F60B4E700C84A984C6DBD4A947C5EAAF.asc" className="underline mx-1" download={true}>PGP Public Key (expires: 2029-03-17)</a>
     </>
 }
