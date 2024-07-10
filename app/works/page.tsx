@@ -20,7 +20,7 @@ export default function WorksPage() {
             </Link>
 
             <Section text={"Works"} />
-            現在、{worksList.length}作品が掲載されています。
+            現在、{worksList.length}作品を掲載しています。
             <div className="flex gap-[15px] flex-wrap justify-center mt-3">
                 {worksList.map((value) => {
                     return <WorksCard
