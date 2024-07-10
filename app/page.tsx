@@ -4,6 +4,7 @@ import Profile from "./section/profile";
 import Social from "./section/social";
 import Skill from "./section/skill";
 import Works from "./section/works";
+import Career from "./section/career";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Social />
       <Skill />
       <Works />
+      <Career />
     </main>
   </>
 
