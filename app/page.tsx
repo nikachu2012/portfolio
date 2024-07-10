@@ -11,7 +11,7 @@ import Contact from "./section/contact";
 export default function Home() {
   return (<>
     <Header />
-    <main className="md:w-[1000px] m-5 md:m-auto ">
+    <main className="md:w-[1000px] mx-5 md:m-auto pb-5">
       {/* main element */}
       <Profile />
       <Social />
