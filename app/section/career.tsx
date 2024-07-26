@@ -1,3 +1,4 @@
+import ExtLink from "../component/extLink";
 import Section from "../component/sectionTitle";
 
 export default function Career() {
@@ -23,6 +24,7 @@ export default function Career() {
                     <td>2023/06~</td>
                     <td>
                         <div className="font-bold">KeTCindyを用いた数学教材の開発</div>
+                        課題研究として、<ExtLink href={"https://s-takato.github.io/ketcindyorg/indexj.html"}>KeTCindy</ExtLink>を用いた数学教材の開発や利便性向上のためのソフトウェアを開発しています。
                     </td>
                 </tr>
                 <tr>
