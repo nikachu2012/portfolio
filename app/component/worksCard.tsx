@@ -11,7 +11,7 @@ type Props = {
 
 export default function worksCard(props: Props) {
     return <div className="w-full max-w-[495px] border-zinc-500 border-[1px] shadow-lg flex flex-col">
-        <Image src={props.image} alt={props.title} className="w-[495px]" />
+        <Image src={props.image} alt={props.title} className="w-[495px]" width={495} />
         <div className="font-bold text-2xl flex justify-center mt-3 mb-2">{props.title}</div>
         <div className="mx-5 mb-2 grow">
             {props.description}
