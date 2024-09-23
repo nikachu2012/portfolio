@@ -1,5 +1,5 @@
 import ExtLink from "../component/extLink";
-import getAge from "../component/getAge";
+import GetAge from "../component/GetAge";
 import Section from "../component/sectionTitle";
 
 export default function Profile() {
@@ -17,7 +17,7 @@ export default function Profile() {
                 </tr>
                 <tr>
                     <td>年齢</td>
-                    <td>{getAge(2007, 9, 18)}歳</td>
+                    <td><GetAge year={2007} month={9} date={18} />歳</td>
                 </tr>
                 <tr>
                     <td>学校</td>
