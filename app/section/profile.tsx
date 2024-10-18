@@ -34,7 +34,7 @@ export default function Profile() {
                 </tr>
             </tbody>
         </table>
-        <ExtLink href="https://note.nikachu.net" className="ml-0">note.nikachu.net</ExtLink><br />
+
         <Link href="publickey" className="ml-1 underline">GPG Public Key</Link>
     </>
 }
