@@ -24,7 +24,7 @@ export default function Career() {
                     <td>2023/06~</td>
                     <td>
                         <div className="font-bold">KeTCindyを用いた数学教材の開発</div>
-                        課題研究として、<ExtLink href={"https://s-takato.github.io/ketcindyorg/indexj.html"}>KeTCindy</ExtLink>を用いた数学教材の開発や利便性向上のためのソフトウェアを開発しています。
+                        課題研究として、数学の図を制作するソフトウェアである<ExtLink href={"https://s-takato.github.io/ketcindyorg/indexj.html"}>KeTCindy</ExtLink>を用いた数学教材の開発や利便性向上のためのソフトウェアを開発しています。
                     </td>
                 </tr>
                 <tr>
@@ -40,6 +40,22 @@ export default function Career() {
                         <div className="font-bold">静岡大成中学校・高等学校にてロボット関連の講座を開催</div>
                         高専の友人と共に、ロボコンなどの大会で勝つにはどうすればよいかについて講義を行いました。<br />
                         また、その後には実際にロボットを作り走らせ、競技会も行いました。
+                    </td>
+                </tr>
+                <tr>
+                    <td>2024/08</td>
+                    <td>
+                        <div className="font-bold">"数学ソフトウェアとその効果的教育利用に関する研究"にて発表</div>
+                        京都大学数理解析研究所(RIMS)にて開催された"数学ソフトウェアとその効果的教育利用に関する研究"にて、KeTCindyの利便性向上と教育的利用について発表を行いました。
+
+                        <div className="mt-1 ml-1 flex gap-2">
+                            <a href="https://www.kurims.kyoto-u.ac.jp/ja/">
+                                <button className="bg-[#d9d9d9] hover:bg-[#b5b5b5] text-black px-2">RIMSのリンク</button>
+                            </a>
+                            <a href="https://sites.google.com/site/rimsmse/home">
+                                <button className="bg-[#d9d9d9] hover:bg-[#b5b5b5] text-black px-2">研究のリンク</button>
+                            </a>
+                        </div>
                     </td>
                 </tr>
             </tbody>
