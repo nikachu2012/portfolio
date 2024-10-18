@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ExtLink from "../component/extLink";
 import GetAge from "../component/GetAge";
 import Section from "../component/sectionTitle";
@@ -34,6 +35,6 @@ export default function Profile() {
             </tbody>
         </table>
         <ExtLink href="https://note.nikachu.net" className="ml-0">note.nikachu.net</ExtLink><br />
-        <a href="/0E493481F60B4E700C84A984C6DBD4A947C5EAAF.asc" className="underline mx-1" download={true}>PGP Public Key (expires: 2029-03-17)</a>
+        <Link href="publickey" className="ml-1 underline">GPG Public Key</Link>
     </>
 }
