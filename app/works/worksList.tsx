@@ -9,6 +9,8 @@ import line_healthcareImage from "../../public/works/line_health.webp"
 import tankaImage from "../../public/works/tanka-database.webp"
 import noteImage from "../../public/works/note.webp"
 import handbookImage from "../../public/works/handbook.webp"
+import cscImage from "../../public/works/csc.png"
+
 
 import Button from "../component/button";
 import { StaticImageData } from "next/image"
@@ -23,6 +25,15 @@ type WorksData = {
 
 
 export const worksList: WorksData[] = [
+    {
+        image: cscImage,
+        title: "情報工学同好会(非公認) 公式ページ",
+        description: "JSONファイルから静的ページを生成することで高速なページ表示を実現しています。また、フォームにCloudflare Pages Functionsを利用しています。",
+        children: <>
+            <Button text={"-> ページ"} href={"https://csc.nikachu.net/"} />
+            <Button text={"-> ソースコード"} href={"https://github.com/csc_a452p/website"} />
+        </>
+    },
     {
         image: portfolioImage,
         title: "ポートフォリオ",
