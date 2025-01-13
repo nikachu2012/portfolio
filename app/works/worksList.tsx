@@ -7,7 +7,7 @@ import syllabusImage from "../../public/works/syllabus.webp"
 import emojicodeImage from "../../public/works/emojicode.webp"
 import line_healthcareImage from "../../public/works/line_health.webp"
 import tankaImage from "../../public/works/tanka-database.webp"
-import noteImage from "../../public/works/note.webp"
+import noteImage from "../../public/works/note.png"
 import handbookImage from "../../public/works/handbook.webp"
 import cscImage from "../../public/works/csc.png"
 import td4cpuImage from "../../public/works/td4cpu.png"
@@ -72,7 +72,7 @@ export const worksList: WorksData[] = [
     {
         image: noteImage,
         title: "note.nikachu.net",
-        description: <>技術的なことを主に投稿するブログのようなサイトです。静的サイトジェネレータであるHugoを利用しています。</>,
+        description: <>技術的なことを主に投稿するブログのようなサイトです。静的サイトジェネレータであるHugoを利用しています。高速性を重視して開発しており、Google PageSpeed Insightsでモバイル/デスクトップ双方で100点を獲得しています。</>,
         children: <>
             <Button text={"-> 使ってみる"} href={"https://note.nikachu.net"} />
             <Button text={"-> ソースコード"} href={"https://github.com/nikachu2012/note.nikachu.net"} />
