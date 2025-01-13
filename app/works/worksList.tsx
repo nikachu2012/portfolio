@@ -10,6 +10,7 @@ import tankaImage from "../../public/works/tanka-database.webp"
 import noteImage from "../../public/works/note.webp"
 import handbookImage from "../../public/works/handbook.webp"
 import cscImage from "../../public/works/csc.png"
+import td4cpuImage from "../../public/works/td4cpu.png"
 
 
 import Button from "../component/button";
@@ -32,6 +33,16 @@ export const worksList: WorksData[] = [
         children: <>
             <Button text={"-> ページ"} href={"https://csc.nikachu.net/"} />
             <Button text={"-> ソースコード"} href={"https://github.com/csc_a452p/website"} />
+        </>
+    },
+    {
+        image: td4cpuImage,
+        title: "TD4 CPU基板",
+        description: "「CPUの創りかた」という本で登場する4bitCPUであるTD4の回路を基板にしたものです。また、flex,bisonを用いたアセンブラーの開発も行いました。",
+        children: <>
+            <Button text={"-> 書籍ページ"} href={"https://book.mynavi.jp/ec/products/detail/id=22065"} />
+            <Button text={"-> リポジトリ"} href={"https://github.com/nikachu2012/td4cpu"} />
+            <Button text={"-> アセンブラー"} href={"https://github.com/nikachu2012/td4asm"} />
         </>
     },
     {
