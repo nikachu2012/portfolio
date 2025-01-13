@@ -22,17 +22,22 @@ export default async function WorksPage() {
 
             <Section text={"GPG Public Key"} />
             <div className="my-3">
-                <div>
-                    Fingerprint: 0E493481F60B4E700C84A984C6DBD4A947C5EAAF
-                </div>
-
-                <div>
-                    Expires: 2029-03-17
-                </div>
+                <table>
+                    <tbody className="[&_th]:text-left [&_th]:border-r [&_th]:border-r-black [&_th]:px-2 [&_td]:px-2">
+                        <tr>
+                            <th>Fingerprint</th>
+                            <td><pre>0E493481F60B4E700C84A984C6DBD4A947C5EAAF</pre></td>
+                        </tr>
+                        <tr>
+                            <th>Expires</th>
+                            <td><pre>2029-03-17</pre></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <code className="bg-gray-500">
-                <pre className="whitespace-pre-wrap p-2 bg-neutral-300">
+            <code className="w-max bg-gray-500">
+                <pre className="w-max whitespace-pre-wrap p-2 bg-neutral-300">
                     {file}
                 </pre>
             </code>
