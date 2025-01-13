@@ -5,6 +5,7 @@ import Skill from "./section/skill";
 import Works from "./section/works";
 import Career from "./section/career";
 import Contact from "./section/contact";
+import Book from "./section/book";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Social />
       <Skill />
       <Works />
+      <Book />
       <Career />
       <Contact />
     </main>
