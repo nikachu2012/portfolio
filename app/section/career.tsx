@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ExtLink from "../component/extLink";
 import Section from "../component/sectionTitle";
 
@@ -49,12 +50,12 @@ export default function Career() {
                         京都大学数理解析研究所(RIMS)にて開催された"数学ソフトウェアとその効果的教育利用に関する研究"にて、KeTCindyの利便性向上と教育的利用について発表を行いました。
 
                         <div className="mt-1 ml-1 flex gap-2">
-                            <a href="https://www.kurims.kyoto-u.ac.jp/ja/">
+                            <Link href="https://www.kurims.kyoto-u.ac.jp/ja/" target="_blank">
                                 <button className="bg-[#d9d9d9] hover:bg-[#b5b5b5] text-black px-2">RIMSのリンク</button>
-                            </a>
-                            <a href="https://sites.google.com/site/rimsmse/home">
+                            </Link>
+                            <Link href="https://sites.google.com/site/rimsmse/home" target="_blank">
                                 <button className="bg-[#d9d9d9] hover:bg-[#b5b5b5] text-black px-2">研究のリンク</button>
-                            </a>
+                            </Link>
                         </div>
                     </td>
                 </tr>
