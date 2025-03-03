@@ -22,6 +22,8 @@ export default function Social() {
 
         <div className="mt-1 flex justify-center gap-1 flex-wrap">
             <Button text={"note.nikachu.net (Blog)"} href={"https://note.nikachu.net/"} />
+            <Button text={"個人サークル nikatech"} href={"https://nikatech.nikachu.net/"} />
+
         </div>
     </>
 }

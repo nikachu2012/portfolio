@@ -7,7 +7,7 @@ export default function Profile() {
     return <>
         <Section text="Profile" />
 
-        プログラミングが生きがいの高専生です。<br />
+        プログラミングが生きがいの高専生です。個人の同人サークル「<ExtLink href={"https://nikatech.nikachu.net/"} className="px-0" target="_blank">nikatech</ExtLink>」もやっています。<br />
         最近はキャッシュレスとかNFCとかにも興味を持っています。
 
         <table className="m-3">
