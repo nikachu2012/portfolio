@@ -1,0 +1,42 @@
+html {
+    max-width: 600px;
+    margin: auto;
+
+    font-family: "Hiragino Kaku Gothic", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+dt {
+    font-weight: bold;
+}
+
+code {
+    font-size: large;
+    background-color: #e2e2e2;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+pre {
+    background-color: #e2e2e2;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.danger {
+    color: red;
+    font-size: small;
+}
