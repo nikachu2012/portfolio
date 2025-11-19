@@ -23,16 +23,9 @@ dt {
     font-weight: bold;
 }
 
-code {
-    font-size: large;
+code pre {
     background-color: #e2e2e2;
     padding: 3px;
-    border-radius: 2px;
-}
-
-pre {
-    background-color: #e2e2e2;
-    padding: 5px;
     border-radius: 2px;
 }
 
