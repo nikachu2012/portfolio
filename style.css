@@ -23,7 +23,8 @@ dt {
     font-weight: bold;
 }
 
-code pre {
+code,
+pre {
     background-color: #e2e2e2;
     padding: 3px;
     border-radius: 2px;
